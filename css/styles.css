@@ -1,103 +1,221 @@
 :root {
-    --main-text-colour: #212121;
-    --selection-colour: #2196f3;
-    --secondery-text-colour: #757575;
-    --background-colour: #f5f5f5;
-    --colour-white: #ffffff;
+  --main-text-colour: #212121;
+  --selection-colour: #2196f3;
+  --secondery-text-colour: #757575;
+  --background-colour: #f5f5f5;
+  --colour-white: #ffffff;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-    color: var(--main-text-colour);
-    background-color: var(--background-colour);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--main-text-colour);
+  background-color: var(--colour-white);
+  text-decoration: none;
 }
 
-.logo {
-    font-family: Raleway, cursive;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1, 19;
+.logo-blue {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--selection-colour);
 }
-
+.logo-black {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.logo-white {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--colour-white);
+}
+ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 .nawigation-link {
-    color: var(--main-text-colour);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1, 14;
-    letter-spacing: 0.02em;
+  color: var(--main-text-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nawigation .nawigation-link:hover,
 .nawigation .nawigation-link:focus {
-    color: var(--selection-colour);
+  color: var(--selection-colour);
+}
+.active {
+  color: var(--selection-colour);
 }
 
 .contacts-futter {
-    color: var(--colour-white);
-
-    font-size: 14px;
-    line-height: 1, 71;
+  color: var(--colour-white);
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 
 .contacts-futter:hover,
 .contacts-futter:focus {
-    color: var(--selection-colour);
+  color: var(--colour-white);
+  opacity: 1;
 }
 
 .contacts-hadder {
-    color: var(--secondery-text-colour);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1, 14;
-    letter-spacing: 0.02em;
+  color: var(--secondery-text-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts-hadder:hover,
 .contacts-hadder:focus {
-    color: var(--selection-colour);
+  color: var(--selection-colour);
 }
 
 button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .filters {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1, 6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .filter-button {
-    background-color: #f5f4fa;
-    color: var(--main-text-colour);
+  background-color: #f5f4fa;
+  color: var(--main-text-colour);
+  cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
-    background-color: var(--selection-colour);
-    color: var(--colour-white);
+  background-color: var(--selection-colour);
+  color: var(--colour-white);
+}
+.button-active {
+  background-color: var(--selection-colour);
+  color: var(--colour-white);
 }
 
-
 .projekt-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-type {
-    color: var(--secondery-text-colour);
-    font-size: 16px;
-    line-height: 1, 88;
+  color: var(--secondery-text-colour);
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 footer {
-    background-color: #2f303a;
+  background-color: #2f303a;
 }
 
-address {
-    color: var(--colour-white);
+.footer-addres {
+  color: var(--colour-white);
 }
+/* index */
+/* start hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--colour-white);
+}
+.hero-butten {
+  background-color: var(--selection-colour);
+  color: var(--colour-white);
+}
+.hero-butten:hover,
+.hero-butten:focus {
+  background-color: #188ce8;
+  color: var(--colour-white);
+}
+/* end hero */
+/* start advantage */
+.adventages-section {
+  background-color: #f5f5f5;
+}
+.advantages {
+}
+.advatage-card {
+}
+.advantage-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-text-colour);
+}
+.advantage-meaning {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* end advantage */
+/* start specification */
+.work {
+}
+.work-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--main-text-colour);
+}
+.work-list {
+}
+.work-card {
+}
+
+/* end specification */
+/*start our team */
+.team {
+  background: #f5f4fa;
+}
+.team-hader {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--main-text-colour);
+}
+.team-card {
+}
+.team-img {
+}
+.person-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  color: var(--main-text-colour);
+}
+.person-skil {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  color: var(--secondery-text-colour);
+}
+/* end our team */
