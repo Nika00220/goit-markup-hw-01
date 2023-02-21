@@ -130,6 +130,7 @@ footer {
 }
 
 .footer-addres {
+  font-family: Roboto, sans-serif;
   color: var(--colour-white);
 }
 /* index */
@@ -173,6 +174,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--secondery-text-colour);
 }
 /* end advantage */
 /* start specification */
