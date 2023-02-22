@@ -111,7 +111,13 @@ button {
   background-color: var(--selection-colour);
   color: var(--colour-white);
 }
+.projects{
 
+}
+
+.projekt-link{
+  color: var(--main-text-colour)
+}
 .projekt-name {
   font-weight: 700;
   font-size: 18px;
@@ -131,6 +137,7 @@ footer {
 
 .footer-addres {
   font-family: Roboto, sans-serif;
+  font-style: normal;
   color: var(--colour-white);
 }
 /* index */
